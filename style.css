@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        --darkest-bg-color: #131921;
+        --darker-bg-color: #232f3e;
+        background-color: #e2e2e2;
+      }
+.logoImage {
+    width: 100%;
+    background-color: #131921;
+    padding: 0.5rem;
+}
+.logoImage img {
+    width: 6%;
+}
+header nav li {
+    background-color: #232F3E;
+    color: #fff;
+    display: inline-block;
+    margin-right: 1rem;
+}
+nav ul {
+    width: 100%;
+    background-color: #232F3E;
+    padding: 0.5rem;
+}
+footer {
+    text-align: center;
+    background-color: var(--darkest-bg-color);
+    font-weight: 600;
+}
+footer a {
+    color: #fff;
+}
+footer div:first-child {
+    background-color: var(--darker-bg-color);
+    padding: 1rem;
+}
+.footerImage img {
+width: 10%;
+margin: 4rem;
+}
+.first-section {
+    background-color: rgb(255, 106, 0);
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
+.second-section img {
+width: 100%;
+}
+.second-section {
+    background-image: url(./Assets/bg-image.png);
+    height: 120%;
+    background-size: cover;
+    /* background-position: center; */
+    position: relative;
+    margin: 1.5rem;
+}
+.second-section p {
+    position: absolute;
+    width: 100%;
+    top: calc(30% - 1rem);
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;;
+}
+.second-section span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 2rem;
+}
+.second-section p {
+    font-weight: 700;
+}
+.third-section {
+    margin: 1.5rem;
+    background-color: #fff;
+}
+.third-section span {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: black;
+}
+.third-section span a {
+    color: rgb(35, 94, 118);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.third-section img {
+    width: 400px;
+    height: 370px;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 5px #dedede;
+}
+.fourth-section {
+    margin: 1.5rem;
+    text-align: center;
+}
+.fourth-section div span {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: black;
+}
+.fourth-section span a {
+    color: rgb(35, 94, 118);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.fourth-section img {
+    width: 100%;
+    height: 460px;
+}
+.fifth-section {
+    margin: 1.5rem;
+    text-align: center;
+}
+.fifth-section div span {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: black;
+}
+.fifth-section img {
+    width: 100%;
+    height: 460px;
+}
+.fifth-section span a {
+    color: rgb(35, 94, 118);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem;
+}
